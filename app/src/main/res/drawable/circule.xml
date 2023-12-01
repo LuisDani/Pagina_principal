@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo: Círculo -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/graywhite" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+        </shape>
+    </item>
+
+    <!-- Imagen dentro del círculo -->
+    <item android:drawable="@drawable/pc"
+        android:width="60dp"
+        android:height="60dp"
+        android:gravity="center"
+        />
+
+</layer-list>

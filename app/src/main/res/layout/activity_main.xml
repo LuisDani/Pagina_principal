@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/purple"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Explore"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/header"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        />
+
+    <TextView
+        android:id="@+id/bfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textColor="@color/gray"
+        android:layout_alignBottom="@+id/barra"
+        android:textSize="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="@color/gray"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/bfirst"
+        android:layout_marginStart="160dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller"
+        android:textColor="@color/gray"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/bfirst"
+        android:layout_marginStart="300dp"
+        />
+
+    <TextView
+        android:id="@+id/seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barra"
+        android:text="Sellers you may follow"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barra"
+        android:text="see all >"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/purple"
+    />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/><ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circule"
+                android:padding="5dp"/><ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circule"
+                android:padding="5dp"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circule"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/pcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle"
+        android:layout_below="@+id/scroll"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH-END GAMER PC"
+        android:layout_below="@+id/pcs"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLACK-PINK"
+        android:textSize="12dp"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="7dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/review"
+        android:layout_height="wrap_content"
+        android:text="Reviews (20)"
+        android:textSize="10dp"
+        android:textColor="@color/gray"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$3000 USD"
+        android:textColor="@color/purple"
+        android:layout_below="@+id/pcs"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="300dp"
+        />
+
+
+<HorizontalScrollView
+    android:id="@+id/scroll2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/review"
+    android:layout_marginTop="10dp"
+    android:paddingStart="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/monitor"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/monitor"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitor $500 USD"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/teclado"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KEYBOARD MECANIC $100 USD"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="10dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mouse"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOUSE LOGITECH $80 USD"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/attack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOUSEPAD SNK $50 USD"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/audifonos"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEADPHONES RAZER $120 USD"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</HorizontalScrollView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/footer"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/settings2"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="325dp"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/home2"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        />
+</RelativeLayout>
+    
