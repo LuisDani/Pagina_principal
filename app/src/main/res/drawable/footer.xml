@@ -13,8 +13,8 @@
 
     <item
         android:drawable="@drawable/user2"
-        android:width="40dp"
-        android:height="40dp"
+        android:width="50dp"
+        android:height="50dp"
         android:gravity="center"
         />
 
