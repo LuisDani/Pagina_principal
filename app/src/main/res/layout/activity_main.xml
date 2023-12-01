@@ -401,27 +401,83 @@
 
     </LinearLayout>
 </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/sillag"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sillaganerboy"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sillagamergirl"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="150dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sillawork"
+        android:layout_below="@+id/scroll2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="280dp"
+        />
+
+    <TextView
+        android:id="@+id/sillag1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chair gamer $150 USD"
+        android:layout_below="@+id/sillag"
+        android:textSize="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chair gamer girl $150 USD"
+        android:layout_below="@+id/sillag"
+        android:textSize="10dp"
+        android:layout_marginStart="135dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chair for work $150 USD"
+        android:layout_below="@+id/sillag"
+        android:textSize="10dp"
+        android:layout_marginStart="280dp"
+        />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/footer"
-        android:layout_below="@+id/scroll2"
-        android:layout_marginTop="15dp" />
+        android:layout_below="@+id/sillag1"
+        android:layout_marginTop="45dp" />
 
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/settings2"
-        android:layout_below="@+id/scroll2"
-        android:layout_marginTop="40dp"
+        android:layout_below="@+id/sillag1"
+        android:layout_marginTop="75dp"
         android:layout_marginStart="325dp"
         />
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/home2"
-        android:layout_below="@+id/scroll2"
-        android:layout_marginTop="40dp"
+        android:layout_below="@+id/sillag1"
+        android:layout_marginTop="70dp"
         android:layout_marginStart="30dp"
         />
 </RelativeLayout>
